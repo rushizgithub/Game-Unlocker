@@ -7,7 +7,7 @@ android {
     buildToolsVersion "33.0.1"
 
     defaultConfig {
-        applicationId "io.github.rushiranpise.gameunlocker"
+        applicationId "io.github.rushiranpise.test"
         minSdkVersion 28
         targetSdkVersion 33
         versionCode 1
@@ -27,7 +27,7 @@ android {
     }
 
     dependenciesInfo.includeInApk false
-    namespace 'io.github.rushiranpise.gameunlocker'
+    namespace 'io.github.rushiranpise.test'
 }
 
 dependencies {
