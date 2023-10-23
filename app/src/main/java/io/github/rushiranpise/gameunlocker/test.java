@@ -15,6 +15,10 @@ import de.robv.android.xposed.XposedBridge;
 import de.robv.android.xposed.XposedHelpers;
 import de.robv.android.xposed.callbacks.XC_LoadPackage;
 
+@SuppressLint("DiscouragedPrivateApi")
+@SuppressWarnings("ConstantConditions")
+public class test implements IXposedHookLoadPackage {
+
 
     @Override
 public void handleLoadPackage(XC_LoadPackage.LoadPackageParam lpparam) throws Throwable {
@@ -48,4 +52,5 @@ public void handleLoadPackage(XC_LoadPackage.LoadPackageParam lpparam) throws Th
             }
         }
     });
+}
 }
